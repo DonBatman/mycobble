@@ -8,3 +8,5 @@ Put cobble in the craft grid to get gravel.
 Put gravel in the craft grid to get sand.
 
 Licence - WTFPL
+
+Forum - https://forum.minetest.net/viewtopic.php?f=9&t=14210
