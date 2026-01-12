@@ -193,3 +193,18 @@ core.register_node ("mycobble:desert_sandstone_sand",{
 		dug = {name="default_gravel_footstep", gain=1.0},
 	}),
 })
+
+
+if core.get_modpath("lucky_block") then
+	lucky_block:add_blocks({
+		{"dro", {"mycobble:desert_gravel"}, 99},
+		{"dro", {"mycobble:sandstone_gravel"}, 99},
+		{"dro", {"mycobble:sandstone_sand"}, 99},
+		{"dro", {"mycobble:silver_gravel"}, 99},
+		{"dro", {"mycobble:silver_cobble"}, 99},
+		{"dro", {"mycobble:sandstone_cobble"}, 99},
+		{"dro", {"mycobble:desert_sandstone_cobble"}, 99},
+		{"dro", {"mycobble:desert_sandstone_gravel"}, 99},
+		{"dro", {"mycobble:desert_sandstone_sand"}, 99},
+	})
+end
